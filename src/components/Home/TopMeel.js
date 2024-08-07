@@ -1,0 +1,53 @@
+//** https://pixabay.com/
+
+export const TopMeels = [
+    {
+        image:"https://images.pexels.com/photos/8471703/pexels-photo-8471703.jpeg?auto=compress&cs=tinysrgb&w=600",
+        name:"pizza"
+    },
+    {
+        image:"https://www.india.com/wp-content/uploads/2023/11/Gujarati-cuisine.png",
+        name:"dabeli"
+    },
+    {
+        image:"https://www.foodiesfeed.com/wp-content/uploads/2023/06/burger-with-melted-cheese.jpg",
+        name:"burger"
+    },
+    {
+        image:"https://food.fnr.sndimg.com/content/dam/images/food/fullset/2023/11/21/FNK_Intsant-Pot-Texas-Style-Chili-Mac_H1.jpg.rend.hgtvcom.1280.960.suffix/1700604212111.jpeg",
+        name:"pasta"
+    }
+    ,{
+        image:"https://images.freeimages.com/images/large-previews/2b6/food-18-1323940.jpg?fmt=webp&w=500",
+        name:"frunchfries"
+    },
+    {
+        image:"https://www.ox.ac.uk/sites/files/oxford/styles/ow_medium_feature/s3/field/field_image_main/Test%20image%203.png?itok=VrQSbpup",
+        name:"dessert"
+    },
+    {
+        image:"https://images.pexels.com/photos/8471703/pexels-photo-8471703.jpeg?auto=compress&cs=tinysrgb&w=600",
+        name:"pizza"
+    },
+    {
+        image:"https://www.india.com/wp-content/uploads/2023/11/Gujarati-cuisine.png",
+        name:"dabeli"
+    },
+    {
+        image:"https://www.foodiesfeed.com/wp-content/uploads/2023/06/burger-with-melted-cheese.jpg",
+        name:"burger"
+    },
+    {
+        image:"https://food.fnr.sndimg.com/content/dam/images/food/fullset/2023/11/21/FNK_Intsant-Pot-Texas-Style-Chili-Mac_H1.jpg.rend.hgtvcom.1280.960.suffix/1700604212111.jpeg",
+        name:"pasta"
+    }
+    ,{
+        image:"https://images.freeimages.com/images/large-previews/2b6/food-18-1323940.jpg?fmt=webp&w=500",
+        name:"frunchfries"
+    },
+    {
+        image:"https://www.ox.ac.uk/sites/files/oxford/styles/ow_medium_feature/s3/field/field_image_main/Test%20image%203.png?itok=VrQSbpup",
+        name:"dessert"
+    }
+
+]

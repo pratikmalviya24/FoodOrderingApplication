@@ -16,7 +16,7 @@ import AddressCart from "./AddressCart";
 
 const items = [1, 1]; // Example items
 
-const style = {
+export const style = {
   position: "absolute",
   top: "50%",
   left: "50%",

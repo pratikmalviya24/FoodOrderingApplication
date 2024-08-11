@@ -35,6 +35,7 @@ export const authReducer = (state = initialState, action) => {
         isLoading: true,
         error: null,
         success: null,
+        user: action.payload,
       };
 
     case REGISTER_SUCCESS:

@@ -5,6 +5,8 @@ import RestaurantCard from "../Restaurant/RestaurantCard";
 const restaurant = [1, 2, 3, 4, 5, 6, 7, 8, 9];
 
 const Home = () => {
+
+
   return (
     <>
       <section className="banner -z-50 relative flex flex-col justify-center items-center">

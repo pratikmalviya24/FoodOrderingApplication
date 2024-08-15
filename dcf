@@ -1,0 +1,41 @@
+[33mcommit ae1286e102b79c242c4d9166a1a8afb133dce37b[m[33m ([m[1;36mHEAD -> [m[1;32mmain[m[33m, [m[1;31morigin/main[m[33m)[m
+Author: pratikmalviya24 <malviyapratik302@gmail.com>
+Date:   Sun Aug 11 18:21:53 2024 +0530
+
+    login & register done
+
+[33mcommit d129d468a1bdb35cdecc4401f1db346053902c6c[m
+Author: pratikmalviya24 <malviyapratik302@gmail.com>
+Date:   Sun Aug 11 17:42:52 2024 +0530
+
+    Redux Part Done
+
+[33mcommit 7f26edc4273d7d06e8036652c7a04cc913734fd7[m
+Author: pratikmalviya24 <malviyapratik302@gmail.com>
+Date:   Sat Aug 10 17:19:41 2024 +0530
+
+    Login & Register Page Created
+
+[33mcommit 33965016e596fb126f5255229aaf01b334c7dd85[m
+Author: pratikmalviya24 <malviyapratik302@gmail.com>
+Date:   Thu Aug 8 21:57:29 2024 +0530
+
+    Cart Page Added
+
+[33mcommit 1e2aec477f3f799a61afd5da5591f8ee9abd0968[m
+Author: pratikmalviya24 <malviyapratik302@gmail.com>
+Date:   Wed Aug 7 22:08:33 2024 +0530
+
+    Restaurant Page Added
+
+[33mcommit 78a84aae1faa2006706d0fb22d0d9a72648482a7[m
+Author: pratikmalviya24 <malviyapratik302@gmail.com>
+Date:   Wed Aug 7 18:08:20 2024 +0530
+
+    Home Page Created
+
+[33mcommit d94df15a9fb5ef571090154b0c206e3004f16821[m
+Author: pratikmalviya24 <malviyapratik302@gmail.com>
+Date:   Tue Aug 6 16:51:11 2024 +0530
+
+    Initialize project using Create React App

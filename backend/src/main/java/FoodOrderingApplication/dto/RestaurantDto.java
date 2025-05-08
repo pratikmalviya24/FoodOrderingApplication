@@ -1,4 +1,4 @@
-package com.project.Online.Food.Ordering.backend.dto;
+package FoodOrderingApplication.dto;
 
 import jakarta.persistence.Column;
 import jakarta.persistence.Embeddable;

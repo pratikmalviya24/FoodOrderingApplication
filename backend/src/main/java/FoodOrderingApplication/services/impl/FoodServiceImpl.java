@@ -1,12 +1,12 @@
-package com.project.Online.Food.Ordering.backend.services.impl;
+package FoodOrderingApplication.services.impl;
 
-import com.project.Online.Food.Ordering.backend.model.Category;
-import com.project.Online.Food.Ordering.backend.model.Food;
-import com.project.Online.Food.Ordering.backend.model.Restaurant;
-import com.project.Online.Food.Ordering.backend.request.CreateFoodRequest;
-import com.project.Online.Food.Ordering.backend.repository.FoodRepository;
-import com.project.Online.Food.Ordering.backend.services.FoodService;
-import com.project.Online.Food.Ordering.backend.services.RestaurantService;
+import FoodOrderingApplication.model.Category;
+import FoodOrderingApplication.model.Food;
+import FoodOrderingApplication.model.Restaurant;
+import FoodOrderingApplication.request.CreateFoodRequest;
+import FoodOrderingApplication.repository.FoodRepository;
+import FoodOrderingApplication.services.FoodService;
+import FoodOrderingApplication.services.RestaurantService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
@@ -26,14 +26,15 @@ public class FoodServiceImpl implements FoodService {
     @Override
     public Food createFood(CreateFoodRequest createFoodRequest, Category category, Restaurant restaurant) throws Exception {
         Food food = Food.builder()
-                .foodCategory(createFoodRequest.getCategory())
-          a      .description(createFoodRequest.getDescription())
+                .foodCategory(category)
+                .description(createFoodRequest.getDescription())
                 .images(createFoodRequest.getImages())
                 .name(createFoodRequest.getName())
                 .price(createFoodRequest.getPrice())
                 .ingredientsItems(createFoodRequest.getIngredientsItems())
-                .isSeasonable(createFoodRequest.isSeasonal())
-                .isVegetarian(createFoodRequest.isVegetarin())
+                .isSeasonable(createFoodRequest.isSeasonable())
+                .isVegetarian(createFoodRequest.isVegetarian())
+                .isAvailable(true)
                 .creationDate(new Date())
                 .restaurant(restaurant).build();
 

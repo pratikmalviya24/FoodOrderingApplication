@@ -1,4 +1,4 @@
-package com.project.Online.Food.Ordering.backend.Config;
+package FoodOrderingApplication.Config;
 
 public class JwtConstant {
 

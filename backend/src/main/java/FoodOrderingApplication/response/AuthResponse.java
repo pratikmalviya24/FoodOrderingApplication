@@ -1,6 +1,6 @@
-package com.project.Online.Food.Ordering.backend.response;
+package FoodOrderingApplication.response;
 
-import com.project.Online.Food.Ordering.backend.model.Role;
+import FoodOrderingApplication.model.Role;
 import lombok.Data;
 
 @Data

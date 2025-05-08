@@ -1,8 +1,8 @@
-package com.project.Online.Food.Ordering.backend.request;
+package FoodOrderingApplication.request;
 
 
-import com.project.Online.Food.Ordering.backend.model.Address;
-import com.project.Online.Food.Ordering.backend.model.ContactInformation;
+import FoodOrderingApplication.model.Address;
+import FoodOrderingApplication.model.ContactInformation;
 import lombok.Data;
 
 import java.util.List;

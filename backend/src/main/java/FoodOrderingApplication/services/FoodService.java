@@ -1,9 +1,9 @@
-package com.project.Online.Food.Ordering.backend.services;
+package FoodOrderingApplication.services;
 
-import com.project.Online.Food.Ordering.backend.model.Category;
-import com.project.Online.Food.Ordering.backend.model.Food;
-import com.project.Online.Food.Ordering.backend.model.Restaurant;
-import com.project.Online.Food.Ordering.backend.request.CreateFoodRequest;
+import FoodOrderingApplication.model.Category;
+import FoodOrderingApplication.model.Food;
+import FoodOrderingApplication.model.Restaurant;
+import FoodOrderingApplication.request.CreateFoodRequest;
 
 import java.util.List;
 

@@ -1,6 +1,6 @@
-package com.project.Online.Food.Ordering.backend.services;
+package FoodOrderingApplication.services;
 
-import com.project.Online.Food.Ordering.backend.model.User;
+import FoodOrderingApplication.model.User;
 
 public interface UserService {
     public User findUserByJwtToken(String jwt) throws Exception;

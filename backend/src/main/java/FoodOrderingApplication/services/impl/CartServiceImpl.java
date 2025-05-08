@@ -1,15 +1,15 @@
-package com.project.Online.Food.Ordering.backend.services.impl;
+package FoodOrderingApplication.services.impl;
 
-import com.project.Online.Food.Ordering.backend.model.Cart;
-import com.project.Online.Food.Ordering.backend.model.CartItem;
-import com.project.Online.Food.Ordering.backend.model.Food;
-import com.project.Online.Food.Ordering.backend.model.User;
-import com.project.Online.Food.Ordering.backend.repository.CartItemRepository;
-import com.project.Online.Food.Ordering.backend.repository.CartRepository;
-import com.project.Online.Food.Ordering.backend.request.AddCartItemRequest;
-import com.project.Online.Food.Ordering.backend.services.CartService;
-import com.project.Online.Food.Ordering.backend.services.FoodService;
-import com.project.Online.Food.Ordering.backend.services.UserService;
+import FoodOrderingApplication.model.Cart;
+import FoodOrderingApplication.model.CartItem;
+import FoodOrderingApplication.model.Food;
+import FoodOrderingApplication.model.User;
+import FoodOrderingApplication.repository.CartItemRepository;
+import FoodOrderingApplication.repository.CartRepository;
+import FoodOrderingApplication.request.AddCartItemRequest;
+import FoodOrderingApplication.services.CartService;
+import FoodOrderingApplication.services.FoodService;
+import FoodOrderingApplication.services.UserService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 

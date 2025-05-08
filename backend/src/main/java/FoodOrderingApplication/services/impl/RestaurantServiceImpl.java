@@ -1,14 +1,14 @@
-package com.project.Online.Food.Ordering.backend.services.impl;
+package FoodOrderingApplication.services.impl;
 
-import com.project.Online.Food.Ordering.backend.dto.RestaurantDto;
-import com.project.Online.Food.Ordering.backend.model.Address;
-import com.project.Online.Food.Ordering.backend.model.Restaurant;
-import com.project.Online.Food.Ordering.backend.model.User;
-import com.project.Online.Food.Ordering.backend.repository.AddressRepository;
-import com.project.Online.Food.Ordering.backend.repository.RestaurantRepository;
-import com.project.Online.Food.Ordering.backend.repository.UserRepository;
-import com.project.Online.Food.Ordering.backend.request.CreateRestaurantRequest;
-import com.project.Online.Food.Ordering.backend.services.RestaurantService;
+import FoodOrderingApplication.dto.RestaurantDto;
+import FoodOrderingApplication.model.Address;
+import FoodOrderingApplication.model.Restaurant;
+import FoodOrderingApplication.model.User;
+import FoodOrderingApplication.repository.AddressRepository;
+import FoodOrderingApplication.repository.RestaurantRepository;
+import FoodOrderingApplication.repository.UserRepository;
+import FoodOrderingApplication.request.CreateRestaurantRequest;
+import FoodOrderingApplication.services.RestaurantService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
@@ -150,4 +150,3 @@ public class RestaurantServiceImpl implements RestaurantService {
         return restaurantRespository.save(restaurant);
     }
 }
-

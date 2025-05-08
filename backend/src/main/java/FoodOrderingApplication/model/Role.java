@@ -1,4 +1,4 @@
-package com.project.Online.Food.Ordering.backend.model;
+package FoodOrderingApplication.model;
 
 public enum Role {
     ROLE_CUSTOMER,

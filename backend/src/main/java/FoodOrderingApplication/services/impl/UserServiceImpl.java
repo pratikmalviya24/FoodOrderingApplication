@@ -1,9 +1,9 @@
-package com.project.Online.Food.Ordering.backend.services.impl;
+package FoodOrderingApplication.services.impl;
 
-import com.project.Online.Food.Ordering.backend.Config.JwtProvider;
-import com.project.Online.Food.Ordering.backend.model.User;
-import com.project.Online.Food.Ordering.backend.repository.UserRepository;
-import com.project.Online.Food.Ordering.backend.services.UserService;
+import FoodOrderingApplication.Config.JwtProvider;
+import FoodOrderingApplication.model.User;
+import FoodOrderingApplication.repository.UserRepository;
+import FoodOrderingApplication.services.UserService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 

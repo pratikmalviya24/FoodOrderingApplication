@@ -1,6 +1,6 @@
-package com.project.Online.Food.Ordering.backend.services;
+package FoodOrderingApplication.services;
 
-import com.project.Online.Food.Ordering.backend.model.Address;
+import FoodOrderingApplication.model.Address;
 
 import java.util.List;
 

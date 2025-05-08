@@ -1,16 +1,16 @@
-package com.project.Online.Food.Ordering.backend.model;
+package FoodOrderingApplication.model;
 
 import jakarta.persistence.*;
-import lombok.AllArgsConstructor;
-import lombok.Builder;
-import lombok.Data;
-import lombok.NoArgsConstructor;
+import lombok.*;
 
 import java.util.ArrayList;
 import java.util.Date;
 import java.util.List;
 
-@Data
+import com.fasterxml.jackson.annotation.JsonIgnore;
+
+@Getter
+@Setter
 @AllArgsConstructor
 @NoArgsConstructor
 @Builder

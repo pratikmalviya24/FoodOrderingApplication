@@ -1,4 +1,4 @@
-package com.project.Online.Food.Ordering.backend;
+package FoodOrderingApplication;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

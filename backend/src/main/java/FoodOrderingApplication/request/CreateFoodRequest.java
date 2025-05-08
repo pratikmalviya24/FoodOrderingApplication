@@ -1,8 +1,8 @@
-package com.project.Online.Food.Ordering.backend.request;
+package FoodOrderingApplication.request;
 
-import com.project.Online.Food.Ordering.backend.model.Category;
-import com.project.Online.Food.Ordering.backend.model.IngredientsItem;
-import com.project.Online.Food.Ordering.backend.model.Restaurant;
+import FoodOrderingApplication.model.Category;
+import FoodOrderingApplication.model.IngredientsItem;
+import FoodOrderingApplication.model.Restaurant;
 import lombok.AllArgsConstructor;
 import lombok.Builder;
 import lombok.Data;
@@ -19,12 +19,12 @@ public class CreateFoodRequest {
     private String description;
     private Long price;
 
-    private Category category;
+    private Category foodCategory;
     private List<String> images;
 
     private Long restaurantId;
-    private boolean vegetarin;
-    private boolean seasonal;
+    private boolean isVegetarian;
+    private boolean isSeasonable;
 
-    private  List<IngredientsItem> ingredientsItems;
+    private List<IngredientsItem> ingredientsItems;
 }

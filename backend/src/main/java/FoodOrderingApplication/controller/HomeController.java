@@ -1,4 +1,4 @@
-package com.project.Online.Food.Ordering.backend.controller;
+package FoodOrderingApplication.controller;
 
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;

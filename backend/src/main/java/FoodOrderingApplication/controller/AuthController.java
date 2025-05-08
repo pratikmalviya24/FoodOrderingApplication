@@ -1,14 +1,14 @@
-package com.project.Online.Food.Ordering.backend.controller;
+package FoodOrderingApplication.controller;
 
-import com.project.Online.Food.Ordering.backend.Config.JwtProvider;
-import com.project.Online.Food.Ordering.backend.model.Cart;
-import com.project.Online.Food.Ordering.backend.model.Role;
-import com.project.Online.Food.Ordering.backend.model.User;
-import com.project.Online.Food.Ordering.backend.request.LoginRequest;
-import com.project.Online.Food.Ordering.backend.response.AuthResponse;
-import com.project.Online.Food.Ordering.backend.repository.CartRepository;
-import com.project.Online.Food.Ordering.backend.repository.UserRepository;
-import com.project.Online.Food.Ordering.backend.services.impl.CustomUserDetailService;
+import FoodOrderingApplication.Config.JwtProvider;
+import FoodOrderingApplication.model.Cart;
+import FoodOrderingApplication.model.Role;
+import FoodOrderingApplication.model.User;
+import FoodOrderingApplication.request.LoginRequest;
+import FoodOrderingApplication.response.AuthResponse;
+import FoodOrderingApplication.repository.CartRepository;
+import FoodOrderingApplication.repository.UserRepository;
+import FoodOrderingApplication.services.impl.CustomUserDetailService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;

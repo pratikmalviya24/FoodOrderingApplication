@@ -1,10 +1,10 @@
-package com.project.Online.Food.Ordering.backend.services.impl;
+package FoodOrderingApplication.services.impl;
 
-import com.project.Online.Food.Ordering.backend.model.Category;
-import com.project.Online.Food.Ordering.backend.model.Restaurant;
-import com.project.Online.Food.Ordering.backend.repository.CategoryRepository;
-import com.project.Online.Food.Ordering.backend.services.CategoryService;
-import com.project.Online.Food.Ordering.backend.services.RestaurantService;
+import FoodOrderingApplication.model.Category;
+import FoodOrderingApplication.model.Restaurant;
+import FoodOrderingApplication.repository.CategoryRepository;
+import FoodOrderingApplication.services.CategoryService;
+import FoodOrderingApplication.services.RestaurantService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 

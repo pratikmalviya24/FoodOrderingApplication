@@ -1,7 +1,7 @@
-package com.project.Online.Food.Ordering.backend.services;
+package FoodOrderingApplication.services;
 
-import com.project.Online.Food.Ordering.backend.model.IngredientsCategory;
-import com.project.Online.Food.Ordering.backend.model.IngredientsItem;
+import FoodOrderingApplication.model.IngredientsCategory;
+import FoodOrderingApplication.model.IngredientsItem;
 
 import java.util.List;
 

@@ -1,8 +1,8 @@
-package com.project.Online.Food.Ordering.backend.services;
+package FoodOrderingApplication.services;
 
-import com.project.Online.Food.Ordering.backend.model.Cart;
-import com.project.Online.Food.Ordering.backend.model.CartItem;
-import com.project.Online.Food.Ordering.backend.request.AddCartItemRequest;
+import FoodOrderingApplication.model.Cart;
+import FoodOrderingApplication.model.CartItem;
+import FoodOrderingApplication.request.AddCartItemRequest;
 
 public interface CartService {
     public CartItem addItemToCart(AddCartItemRequest addCartItemRequest, String jwt) throws Exception;

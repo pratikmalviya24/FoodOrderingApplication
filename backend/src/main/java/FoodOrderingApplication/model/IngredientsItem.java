@@ -1,4 +1,4 @@
-package com.project.Online.Food.Ordering.backend.model;
+package FoodOrderingApplication.model;
 
 import com.fasterxml.jackson.annotation.JsonIgnore;
 import jakarta.persistence.*;

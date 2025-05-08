@@ -1,6 +1,6 @@
-package com.project.Online.Food.Ordering.backend.services.impl;
+package FoodOrderingApplication.services.impl;
 
-import com.project.Online.Food.Ordering.backend.services.AddressService;
+import FoodOrderingApplication.services.AddressService;
 import org.springframework.stereotype.Service;
 
 @Service

@@ -1,6 +1,6 @@
-package com.project.Online.Food.Ordering.backend.repository;
+package FoodOrderingApplication.repository;
 
-import com.project.Online.Food.Ordering.backend.model.IngredientsItem;
+import FoodOrderingApplication.model.IngredientsItem;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;
 

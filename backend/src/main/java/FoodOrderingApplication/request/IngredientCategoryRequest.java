@@ -1,4 +1,4 @@
-package com.project.Online.Food.Ordering.backend.request;
+package FoodOrderingApplication.request;
 
 import lombok.Data;
 

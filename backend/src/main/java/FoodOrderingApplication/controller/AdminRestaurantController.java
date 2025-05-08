@@ -1,10 +1,10 @@
-package com.project.Online.Food.Ordering.backend.controller;
+package FoodOrderingApplication.controller;
 
-import com.project.Online.Food.Ordering.backend.model.Restaurant;
-import com.project.Online.Food.Ordering.backend.model.User;
-import com.project.Online.Food.Ordering.backend.request.CreateRestaurantRequest;
-import com.project.Online.Food.Ordering.backend.services.RestaurantService;
-import com.project.Online.Food.Ordering.backend.services.UserService;
+import FoodOrderingApplication.model.Restaurant;
+import FoodOrderingApplication.model.User;
+import FoodOrderingApplication.request.CreateRestaurantRequest;
+import FoodOrderingApplication.services.RestaurantService;
+import FoodOrderingApplication.services.UserService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;

@@ -1,4 +1,4 @@
-package com.project.Online.Food.Ordering.backend.Config;
+package FoodOrderingApplication.Config;
 
 import jakarta.servlet.FilterRegistration;
 import org.springframework.boot.web.servlet.FilterRegistrationBean;

@@ -90,32 +90,6 @@ A full-stack food ordering platform that allows users to browse restaurants, ord
    ```
    The frontend application will start on port 3000
 
-## API Endpoints
-
-### Auth Endpoints
-- POST `/api/auth/register` - Register new user
-- POST `/api/auth/login` - User login
-
-### User Endpoints
-- GET `/api/users/profile` - Get user profile
-- PUT `/api/users/profile` - Update user profile
-
-### Restaurant Endpoints
-- GET `/api/restaurants` - List all restaurants
-- GET `/api/restaurants/{id}` - Get restaurant details
-- GET `/api/restaurants/{id}/menu` - Get restaurant menu
-
-### Order Endpoints
-- POST `/api/orders` - Create new order
-- GET `/api/orders` - Get user orders
-- GET `/api/orders/{id}` - Get order details
-
-### Cart Endpoints
-- GET `/api/cart` - Get user's cart
-- POST `/api/cart/items` - Add item to cart
-- PUT `/api/cart/items/{id}` - Update cart item
-- DELETE `/api/cart/items/{id}` - Remove item from cart
-
 ## Contributing
 Feel free to submit issues and enhancement requests.
 
